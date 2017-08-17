@@ -27,7 +27,7 @@ class ActiveTwo():
     #: Data packet size (default: 32 channels @ 512Hz)
     buffer_size = None
 
-    def __init__(self, host='127.0.0.1', sfreq=512, port=778, nchannels=32, tcpsamples=4):
+    def __init__(self, host='127.0.0.1', sfreq=512, port=778, nchannels=64, tcpsamples=16):
         """
         Initialize connection and parameters of the signal
         :param host: IP address where ActiView is running
